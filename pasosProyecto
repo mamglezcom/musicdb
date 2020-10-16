@@ -1,3 +1,11 @@
 -crear bbdd
 -crear tabla albums
--
+-(crear repo git  y push)
+-crear paquete entity, clase Album @Entity @Table
+-configurar anotaciones clase primaria
+-crear paquete repository y interface albumsRepository extendiendo JpaRepository
+-crear paquete service y interface IAlbumService
+-crear paquete .service.jpa y clase que implemente IAlbumsService y declarar atributo para inyectar
+-configurar Datasource en application.properties
+-crear paquete controller y clase rest AlbumsController con @RestController
+crear metodo para recuperar listado albums
