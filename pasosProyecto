@@ -8,4 +8,6 @@
 -crear paquete .service.jpa y clase que implemente IAlbumsService y declarar atributo para inyectar
 -configurar Datasource en application.properties
 -crear paquete controller y clase rest AlbumsController con @RestController
-crear metodo para recuperar listado albums
+-crear metodo para recuperar listado albums
+-instalar Postman
+-crear metodo para guardar album en interface IAlbumService
